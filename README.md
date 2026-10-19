@@ -36,7 +36,7 @@ Trained a recurrent neural network to predict traffic jams from real Waze data, 
 | **[VLAN posture scanner](https://github.com/youssef-talbi/vlan-posture-scanner)** | Single Go binary with a CLI and a local web dashboard. Flags weak TLS, cleartext protocols and SMBv1 across network segments. When a host refuses an anonymous SMB session, it reports the patch state as undetermined instead of guessing. | Go · Nmap |
 | **Zero Trust access platform** *(team of 3, in progress)* | My part is device posture with osquery and continuous verification in Wazuh, which revokes a user's Keycloak session or Ziti identity when their device drifts out of policy. I also own the attack demos and the overall architecture. | Keycloak · OpenZiti · step-ca · OPA · Wazuh · osquery |
 | **Kubernetes DevOps pipeline** | Took a microservices app from VMs to containers to Kubernetes: a 3-node kubeadm cluster, minikube, then EKS, deployed through Jenkins with SonarQube checks. | Docker · Kubernetes · EKS · Jenkins · SonarQube |
-| **Secure IP/MPLS backbone** | Multi-site carrier backbone in GNS3 with L3 MPLS VPNs (MP-BGP VPNv4, VRF) isolating each customer, AAA through FreeRADIUS, SNMPv3 monitoring and HSRP failover. | GNS3 · MPLS · BGP · FreeRADIUS · Zabbix |
+| **[Secure IP/MPLS backbone](https://github.com/youssef-talbi/ip-mpls-backbone-vpn-gns3)** | Multi-site carrier backbone in GNS3 with L3 MPLS VPNs (MP-BGP VPNv4, VRF) isolating each customer, AAA through FreeRADIUS, SNMPv3 monitoring and HSRP failover. | GNS3 · MPLS · BGP · FreeRADIUS · Zabbix |
 | **AI-augmented SOC** *(team of 4)* | I set up pfSense as the lab's central firewall and wrote the Shuffle SOAR workflows that block attacking IPs over SSH and send Telegram alerts. | pfSense · Shuffle · Wazuh |
 
 <details>
